@@ -57,7 +57,7 @@ Kuma supports running service meshes in multiple zones, allowing for deployment 
 
 The key components of a multi-zone deployment in Kuma include
 
-##### Global Control Plane
+##### Global Control Plane 
 - Accepts connections only from zone control planes.
 - Manages policies applied to data plane proxies.
 - Propagates policies and zone ingresses to zone control planes.
@@ -103,7 +103,7 @@ The key components of a multi-zone deployment in Kuma include
     - Zone configuration updates are not reflected globally.
     - Inventory view of data plane proxies becomes outdated.
 
-- Communication Between Two Zones Failing
+- Communication Between Two Zones Failing 
     - Communication within each zone remains unaffected.
     - Cross-zone communication fails, but resiliency mechanisms can reroute traffic.
     - Kuma does not replace API gateways; instead, it focuses on cross-zone communication within a mesh, while API gateways can be used in addition to zone ingresses.

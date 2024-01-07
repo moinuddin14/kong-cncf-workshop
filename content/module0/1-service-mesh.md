@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-### What is a Service Mesh
+### What is a Service Mesh?
 
 As organizations transition from monolithic to microservices architectures, they face challenges related to service-to-service communication, observability, security, and resilience. A service mesh addresses these challenges by providing a dedicated infrastructure layer for managing and controlling communication between microservices.
 
