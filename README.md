@@ -1,3 +1,3 @@
 # Guide to setup Hugo Static Website
-1. ramu
+1. Ramu
 2. learning about github
